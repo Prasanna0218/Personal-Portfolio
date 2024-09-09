@@ -1,0 +1,327 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --primary-background:Black;
+    --primary-color:white;
+    --secondary-color:#fe1d4f;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/**navbar**/
+.navbar{
+    background-color:var(--primary-background) !important;
+    border-bottom: 1px solid grey;
+}
+/**navbrand**/
+.navbar-brand_h1{
+    font-size: 1.7rem;
+    font-weight: 700;
+    /* background-color: red; */
+    color: var(--primary-color);
+    margin-bottom: 0px !important;
+}
+.navbar-brand_h1 span{
+    color: var(--secondary-color);
+}
+
+/**navitems**/
+.nav-item{
+    font-size: 17px;
+}
+.nav-link{
+    color: var(--primary-color) !important;
+    transition: 0.3s linear !important;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+.nav-item #button{
+    padding: 5px 22px;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color:var(--primary-background) !important;
+    font-weight: 500;
+    transition: 0.3s linear;
+    max-width: 100px;
+}
+.nav-item #button:hover{
+    color: var(--primary-color) !important;
+}
+/**toogler customised**/
+#custom-toggler{
+    color: var(--secondary-color) !important;
+    font-size: 22px;
+    padding-top: 2px;
+}
+.navbar-toggler{
+    border: 2px solid var(--primary-color) !important;
+}
+/***nmans***/
+.home{
+    background-color: var(--primary-background);
+}
+#img{
+    width: 300px;
+}
+
+#hero-contents h1{
+    color: var(--primary-color) !important;
+    font-size: 3rem;
+}
+#hero-contents h1 span{
+    color: var(--secondary-color);
+}
+#hero-contents h2{
+    color:var(--primary-color);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+#hero-contents p{
+    color: rgb(208, 206, 206);
+    font-size: 18px;
+    font-weight: 400;
+}
+#hero-contents button{
+    width: 120px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.4s linear;
+}
+
+#hero-contents button:hover{
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+/***----------------about-------------***/
+.about{
+    background-color: var(--primary-background);
+}
+.about .row {
+    min-height: 100vh;
+    /* background-color: red; */
+}
+
+.about .card img{
+    border-radius: 100%;
+}
+
+#about-contents h1{
+    color: var(--primary-color);
+}
+
+#about-contents p{
+    line-height: 1.6rem;
+    color:rgb(162, 161, 161);
+}
+
+.navtab-link{
+    text-decoration: none ;
+    color:white;
+    position: relative;
+}
+.navtab-link:hover{
+    color:white !important;
+}
+
+.navtab-link::after{
+    content:'';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color:var(--secondary-color);
+    bottom: -3px;
+    border-radius: 2px;
+    left:0px;
+    transition: 0.3s linear;
+}
+.navtab-link:hover::after,
+.navtab-link.active::after{
+    width: 100%;
+}
+/***-------------------My works page------------------***/
+
+#My-works-row{
+    min-height: 100vh;
+}
+
+#My-works-row .card{
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+}
+#My-works-row .card-body span{
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+#My-works-row .card-body h3{
+    transition: 0.4s linear;
+}
+#My-works-row .card-body h3:hover{
+    color: var(--secondary-color);
+}
+#My-works-row .card-body p{
+    color: rgb(182, 180, 180);
+}
+#My-works-row .card-body a{
+    text-decoration: none;
+    color: var(--primary-background);
+    transition: 0.3s linear;
+}
+#My-works-row .card-body a:hover{
+    color: var(--secondary-color);
+}
+#My-works-row .card-body a span{
+    font-size: 18px;
+    transition: 0.3s linear;
+}
+#My-works-row .card-body a span:hover{
+    color: var(--primary-background);
+}
+
+/***-------------------contact-form start---------------***/
+.contactform{
+    background-color: var(--primary-background);
+}
+.form-control{
+    color: #ffff !important;
+}
+#contactform-row{
+    min-height: 100vh;
+}
+#contactform-row h1{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+#contactform-row p{
+    font-size: 22px;
+    color: var(--primary-color);
+}
+#contactform-row p span{
+    color: var(--secondary-color);
+}
+#contactform-row ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#contactform-row ul li{
+    /* background-color: red; */
+    font-size: 23px;
+}
+#contactform-row ul li a{
+    color: var(--secondary-color);
+    transition: 0.3s linear;
+}
+#contactform-row ul li a:hover{
+    color: var(--primary-color);
+}
+#contactform-row input{
+    font-size: 19px;
+    font-weight: 400;
+    background-color: #252525 !important;
+    border: none !important;
+}
+#contactform-row textarea{
+    font-size: 19px;
+    font-weight: 400;
+    background-color: #252525 !important;
+    border: none !important;
+}
+#contactform-row .btn{
+    padding: 6px 28px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 16px;
+}
+
+@media(max-width:400px)
+{
+    .contactform{
+        background-color: var(--primary-background);
+    }
+    #contactform-row{
+        min-height: 100vh;
+    }
+    #contactform-row h1{
+        font-weight: 500;
+        color: var(--primary-color);
+        text-align: center;
+    }
+    #contactform-row p{
+        font-size: 18px;
+        color: var(--primary-color);
+    }
+    #contactform-row p span{
+        color: var(--secondary-color);
+    }
+    #contactform-row ul{
+        list-style: none;
+        padding-left: 0px;
+    }
+    #contactform-row ul li{
+        /* background-color: red; */
+        font-size: 20px;
+    }
+    #contactform-row ul li a{
+        color: var(--secondary-color);
+        transition: 0.3s linear;
+    }
+    #contactform-row ul li a:hover{
+        color: var(--primary-color);
+    }
+    #contactform-row input{
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #252525 !important;
+        border: none !important;
+        padding: 9px 15px;
+        color: white !important;
+    }
+    #contactform-row textarea{
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #252525 !important;
+        color:var(--primary-color) !important;
+        border: none !important;
+    }
+    #contactform-row .btn{
+        padding: 4px 22px;
+        background-color: var(--secondary-color);
+        color: white;
+        font-size: 15px;
+    }
+}
+
+@media(min-width:768px)
+{
+    .navbar{
+        background-color:var(--primary-background) !important;
+        border-bottom: 1px solid grey;
+        z-index: 9999;
+    position: fixed !important;
+    top: 0px !important;
+    width: 100% !important;
+    }
+
+    #My-works-row{
+        min-height: 100vh;
+        padding-top: 20px;
+    }
+}
+@media(max-width:500px)
+{
+    #footer p{
+        padding-top: 20px;
+        font-size: 12px;
+    }
+}

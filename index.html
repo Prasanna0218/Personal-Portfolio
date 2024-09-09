@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- stylesheet link start-->
+    <link rel="stylesheet" href="./assets/Css/style.css"/>
+    <!-- stylesheet link end-->
+
+    <!-- Bootstrap Css Link start -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap Css Link end -->
+
+    <!-- font awesome Cdn Link start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- font awesome Cdn Link end -->
+  </head>
+  <body>
+    <!-- Navbar section start-->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container px-md-1 px-3">
+          <a class="navbar-brand" href="#"
+            ><h2 class="navbar-brand_h1">
+              <span
+                style="font-size: 30px !important; font-weight: 700 !important"
+                >P</span
+              >rasa<span>n</span>na!
+            </h2></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fa-solid fa-bars" id="custom-toggler"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-lg-2">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item me-lg-2">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item me-lg-2">
+                <a class="nav-link" href="#mywork" aria-disabled="true">MyWork</a>
+              </li>
+              <li class="nav-item me-lg-2">
+                <a class="nav-link" href="#contact" aria-disabled="true">Contact</a>
+              </li>
+              <li class="nav-item me-lg-2">
+                <a href="index2.html" id="button" class="my-auto nav-link">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Navbar section end-->
+
+    <!-- Home section start -->
+    <section class="home pt-5" id="home">
+      <div class="container">
+        <div class="row" style="min-height: 92vh">
+          <div
+            class="col-md-6 ps-5 d-flex justify-content-center flex-column"
+            id="hero-contents"
+          >
+            <h1 class="mb-3">Hi!, I'm <span>Prasanna</span></h1>
+            <h2 class="mb-3">Web Developer</h2>
+            <p class="mb-3">
+              A passionate Web Developer crafting modern, responsive, and
+              user-friendly websites.
+            </p>
+            <button class="btn">Hire Me</button>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center mt-5 m-lg-0 m-md-0"
+          >
+            <div id="img">
+              <img
+                src="./assets/img/IMG_1016.JPG"
+                alt=""
+                class="img-fluid"
+                style="border-radius: 40px; border: 2px solid white"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home section end -->
+
+    <!-- About section start -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <img
+              src="./assets/img/Lovepik_com-401321431-vector-work-people-illustration.png" class="img-fluid"
+              alt=""
+              width="600px"
+            />
+          </div>
+          <div class="col-lg-6" id="about-contents">
+            <h1>About Me</h1>
+            <p>
+              I'm Prasanna, a dedicated and passionate Web Developer with a keen
+              eye for detail and a love for crafting modern, responsive, and
+              user-friendly websites. With a strong foundation in HTML, CSS,
+              JavaScript, and Bootstrap, I enjoy turning ideas into digital
+              experiences that not only look great but also perform
+              exceptionally well.
+            </p>
+
+            <nav class="nav nav-pills">
+              <a href="#design" class="navtab-link me-md-4 me-3" data-bs-toggle="tab"
+                >Web design</a
+              >
+              <a href="#develop" class="navtab-link me-md-4 me-3" data-bs-toggle="tab"
+                >Web develop</a
+              >
+              <a href="#mobiled" class="navtab-link" data-bs-toggle="tab"
+                >Mobile design</a
+              >
+            </nav>
+            <hr />
+            <div class="tab-content my-2" style="max-width: 350px !important;">
+              <div
+                class="tab-pane active show"
+                id="design"
+                role="tabpanel"
+              >
+              <h5>UI/UX</h5>
+              <p> A passionate UI/UX designer dedicated to creating websites that are both beautiful and easy to use.</p>
+            </div>
+              <div class="tab-pane" id="develop" role="tabpanel">
+                <h5>Web Development</h5>
+                <p>A web developer focused on creating functional and responsive websites using HTML, CSS, and JavaScript.</p>
+              </div>
+              <div class="tab-pane" id="mobiled" role="tabpanel">
+                <h5>Mobile App Development</h5>
+                <p>A mobile app developer focused on creating intuitive and high-performing apps using modern tools and frameworks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- My Works start -->
+     <section style="background-color: black;" class="pt-3 pt-sm-3 pt-md-3 pt-lg-0 pt-xl-0" id="mywork">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center" id="My-works-row">
+          <h1 class="text-center" style="color: white;font-size: 45px;"><span style="color: #fe1d4f;">M</span>y <span style="color: #fe1d4f;">W</span>orks</h1>
+          <div class="col-lg-4">
+            <div class="card my-lg-0 my-2">
+              <img src="./assets/img/firosnv-photography-Z2c6ounF-iE-unsplash.jpg" alt="" style="border-radius: 8px ;">
+              <div class="card-body">
+                <span><i class="fa-brands fa-figma mb-3"></i></span>
+                <h3>UI/UX</h3>
+                <p>Designing modern, responsive websites tailored to your needs.</p>
+                <a href="https://www.linkedin.com/in/p-prasanna-817b9027b/" target="_blank">See My Works Here<span class="ms-2"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+              </div>
+             </div>
+          </div>
+          <div class="col-lg-4" style="margin-top: 0px !important;">
+           <div class="card my-lg-0 my-2">
+              <img src="./assets/img/farzad-p-xSl33Wxyc-unsplash.jpg" alt="" class="img-fluid"  style="border-radius: 8px ;">
+              <div class="card-body">
+              <span><i class="fa-solid fa-code mb-3"></i></span>
+              <h3>Web Design</h3>
+              <p>Creating user-centric interfaces for a seamless experience.</p>
+              <a href="https://www.linkedin.com/in/p-prasanna-817b9027b/" target="_blank">See My Works Here<span class="ms-2"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card my-lg-0 my-2">
+              <img src="./assets/img/william-hook-9e9PD9blAto-unsplash.jpg" alt=""  style="border-radius: 8px ;">
+              <div class="card-body">
+                <span><i class="fa-solid fa-mobile-screen-button mb-3"></i></span>
+                <h3>Mobile Applications</h3>
+                <p>Developing innovative mobile apps for all platforms with Better Interfaces.</p>
+                <a href="https://www.linkedin.com/in/p-prasanna-817b9027b/" target="_blank">See My Works Here<span class="ms-2"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+              </div>
+             </div>
+          </div>
+      </div>
+      </div>
+     </section>
+    <!-- My Works end -->
+
+    <!-- Contact form start -->
+     <section class="contactform pt-4 pt-sm-3 pt-md-3 pt-lg-0 pt-xl-0" id="contact">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center" id="contactform-row">
+          <div class="col-md-5">
+            <h1 class="display-3 mb-4 mb-lg-5 mb-md-4">Contact Me</h1>
+            <p class="mb-3 mb-lg-4 mb-md-3 "><span><i class="fa-solid fa-envelope me-3"></i></span>contactme@gmail.com</p>
+            <p class="mb-3 mb-lg-4 mb-md-3 "><span><i class="fa-solid fa-phone me-3"></i></span>+91 0782679182</p>
+          <ul class="d-flex mb-3 mb-lg-5 mb-md-4 ">
+            <li class="me-4"><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li class="me-4"><a href="https://www.instagram.com/prasanna_0218/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="me-4"><a href="https://www.linkedin.com/in/p-prasanna-817b9027b/"><i class="fa-brands fa-linkedin" target="_blank"></i></a></li>
+            <li class="me-4"><a href="#"><i class="fa-brands fa-facebook" target="_blank"></i></a></li>
+          </ul>
+          <a class="btn mb-3 mb-lg-0" href="./assets/files/user.pdf" download="Prasanna-resume">Download CV</a>
+          </div>
+          <div class="col-md-7">
+            <form name="submit-to-google-sheet" id="my-form">
+              <div class="mb-4">
+                <input type="text" class="form-control" id="username" placeholder="Your name" name="Name" required>
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email" name="Email" required>
+              </div>
+              <div class="mb-4 form-check" style="padding-left: 0px !important;">
+                <textarea id="" placeholder="Your Message" class="form-control" rows="5" name="Message"></textarea>
+              </div>
+              <button type="submit" class="btn mb-2 m" id="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Contact form end -->
+
+    <!-- Footer start -->
+     <section style="background-color: black;overflow-x: hidden !important;" id="footer">
+      <div class="row py-2 text-center" style="color: white; border-top:1px solid #252525;">
+        <p>©️ All rights reserved. Special thanks to Greatstack for web design inspiration. User-generated images are owned by their respective creators(firosnv,farzad,william).</p>
+      </div>
+     </section>
+    <!-- footer end -->
+
+    <!-- Bootstrap Script start -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Script end -->
+     <!-- Custom js start -->
+      <script src="./assets/js/index.js"></script>
+      <!-- Custom js end -->
+  </body>
+</html>
